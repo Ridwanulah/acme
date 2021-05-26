@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* nav */
+:root{
+    --gray:   rgb(38, 39, 46);
+    --red: rgb(247, 63, 7);
+
+}
+.head{
+    background: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    height: 6rem;
+    border-bottom: 0.2rem solid var(--red);
+    padding: 0 5rem;
+    
+}
+.text{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 2rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.text1{
+    color: var(--red);
+}
+.text2{
+    padding: 0 0.5rem;
+    text-transform: capitalize;
+    color: white;
+    
+}
+.links1{
+    display: flex;
+    margin-right: 3rem;
+    justify-content: space-around;
+    list-style: none;
+
+   
+}
+.single_link1, .single_link2, .single_link3{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;
+    margin-right: 2rem;
+    transition: all 0.5s linear;
+}
+
+.single_link1:hover{
+    color:var(--red);
+}
+.single_link2:hover{
+    color: var(--red);
+}
+.single_link3:hover{
+    color: var(--red);
+}
+/* end of nav */
+
+/* subscribe */
+.subscribe{
+    background: var(--gray);
+    height: 2rem;
+    padding: 2rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.subs_text{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+
+    /* font-size: 1rem; */
+
+
+}
+.input_text{
+    border: none;
+    height: 1.5rem;
+    width: 15rem;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* padding-right: 1rem; */
+}
+.input_text1{
+    display: flex;
+    padding: 0.2rem 0.4rem;
+    width: 14rem;
+    
+}
+.subs_btn{
+    background: var(--red);
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    padding: 0.1rem 0.1rem;
+    text-transform: capitalize;
+    border-radius: 1px;
+    transition: all 0.5s linear;
+
+}
+.subs_btn:hover{
+    background:white;
+    color: var(--red);
+}
+/* end of subscribe */
+/* about */
+.about{
+    display: flex;
+    padding: 2rem 7rem;
+    margin: 0rem 1rem;
+}
+.about_us{
+    padding-right: 5rem;
+}
+
+.about_title{
+    text-transform: capitalize;
+}
+.about_text{
+    padding-top: 0.6rem;
+}
+.about_colored{
+    /* display: block; */
+    background: var(--gray);
+    margin-top: 1rem;
+    padding: 0.5rem 0.5rem;
+    text-align: left;
+    /* align-content: center; */
+    color: white;
+    font-size: 1rem;
+}
+.what_we_do{
+    background: var(--gray);
+    text-align: left;
+    /* align-content: center; */
+    color: white;
+    font-size: 1rem;
+    padding: 2rem 0.7rem;
+    margin-bottom: 3rem;
+}
+.what_we_do_title{
+    text-transform: capitalize;
+}
+.what_we_do_text{
+    padding-top: 0.6rem;
+}
+/* end of about */
+
+/* footer */
+footer{
+    height: 5rem;
+    background: var(--red);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    align-items: center;
+
+}
